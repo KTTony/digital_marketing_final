@@ -1,0 +1,94 @@
+.mainImage{
+    height: 45vh;
+    width: 100%;
+}
+.mainImage img{
+    height: 47vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 60%; /* default value: image is centered*/
+    /* object-position: 50% 0; */
+}
+
+header{
+    height: 40px;
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: rgba(67,67,67,1);
+    /* opacity: 0.9; */
+    top: 0px;
+}
+
+header ul{
+    display: flex;
+    Justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-wrap:wrap;
+    /* overflow: visible; */
+}
+
+header ul li{
+    padding: 0 1em;
+    height: 100%;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    background-color: rgba(67,67,67,1);
+    transition: 0.2s;
+}
+header a{
+    color: white;
+    text-decoration: none
+}
+header a:hover{
+    color: #ED784A;
+    text-decoration: none
+}
+
+header ul li ol{
+    display: none;
+    color: white;
+    background-color: rgba(67,67,67,1);
+}
+
+header ul li:hover{
+    color: #ED784A;
+}
+header ul li:hover > ol{
+    display: block;
+}
+header ul li ol:hover{
+    color: #ED784A;
+}
+
+.body{
+    margin: 2em auto;
+    /* for test */
+    height: 1000px;
+    width: 60%;
+    /* end test */
+    background: rgba(245,84,85,1);
+}
+
+footer{
+    padding: 1px 10px;
+    text-align: end;
+    background-color: rgba(67,67,67,1);
+}
+footer a{
+    color: #ED784A;
+    text-decoration: none
+}
+footer a:hover{
+    color: #904E0E;
+    text-decoration: none
+}
+
+
+@media (max-width:500px){
+    .body{
+        width: 100%;
+    }
+}
