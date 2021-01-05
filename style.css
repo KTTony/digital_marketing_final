@@ -1,12 +1,15 @@
+.body_wrap{
+    background-color: rgb(245,245,245);
+}
 .mainImage{
-    height: 45vh;
+    height: 55vh;
     width: 100%;
 }
 .mainImage img{
-    height: 47vh;
+    height: 57vh;
     width: 100%;
     object-fit: cover;
-    object-position: 50% 60%; /* default value: image is centered*/
+    object-position: 50% 30%; /* default value: image is centered*/
     /* object-position: 50% 0; */
 }
 
@@ -83,10 +86,9 @@ header ul li ol:hover{
 .body{
     margin: 2em auto;
     /* for test */
-    height: 1000px;
-    width: 60%;
+    width: 80%;
     /* end test */
-    background: rgba(245,84,85,1);
+    /* background: rgba(245,84,85,1); */
 }
 
 footer{
