@@ -21,16 +21,22 @@ header{
 }
 
 header ul{
+    width: 70%;
+    margin: 0 auto;;
     display: flex;
-    Justify-content: center;
+    Justify-content: space-between;
     align-items: center;
     height: 100%;
-    flex-wrap:wrap;
-    /* overflow: visible; */
+    flex-wrap:nowrap ;
+    /* overflow: scroll; */
+}
+header ul::-webkit-scrollbar {
+    display: none;
 }
 
 header ul li{
-    padding: 0 1em;
+    box-sizing: border-box;
+    width: 7em;
     height: 100%;
     text-align: center;
     line-height: 40px;
@@ -40,7 +46,16 @@ header ul li{
 }
 header a{
     color: white;
-    text-decoration: none
+    text-decoration: none;
+    display: block;
+}
+header .wide{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+header .narrow{
+    display: none;
 }
 header a:hover{
     color: #ED784A;
@@ -48,10 +63,12 @@ header a:hover{
 }
 
 header ul li ol{
+    padding: 0 1em;
     display: none;
     color: white;
     background-color: rgba(67,67,67,1);
 }
+
 
 header ul li:hover{
     color: #ED784A;
@@ -87,8 +104,25 @@ footer a:hover{
 }
 
 
-@media (max-width:500px){
+@media (max-width:820px){
+    .body{
+        width: 85%;
+    }
+    header ul{
+        width: 100%
+    }
+}
+@media (max-width:576px){
     .body{
         width: 100%;
+    }
+    header ul{
+        width: 100%
+    }
+    header .narrow{
+        display: block;
+    }
+    header .wide{
+        display: none;
     }
 }
