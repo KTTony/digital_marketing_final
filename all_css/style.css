@@ -1,0 +1,150 @@
+.body_wrap {
+    background-color: rgb(240, 240, 240);
+}
+
+.mainImage {
+    height: 55vh;
+    width: 100%;
+}
+
+.mainImage img {
+    height: 57vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 30%;
+    /* default value: image is centered*/
+    /* object-position: 50% 0; */
+}
+
+header {
+    height: 40px;
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: rgba(67, 67, 67, 1);
+    /* opacity: 0.9; */
+    top: 0px;
+    z-index: 99;
+}
+
+header ul {
+    width: 70%;
+    margin: 0 auto;
+    ;
+    display: flex;
+    Justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    flex-wrap: nowrap;
+    /* overflow: scroll; */
+}
+
+header ul li {
+    box-sizing: border-box;
+    width: 7em;
+    height: 100%;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    background-color: rgba(67, 67, 67, 1);
+    transition: 0.2s;
+}
+
+header ul li p {
+    margin: 0;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+header .wide {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+header .narrow {
+    display: none;
+}
+
+header a:hover {
+    color: #ED784A;
+    text-decoration: none
+}
+
+header ul li ol {
+    padding: 0 1em;
+    display: none;
+    color: white;
+    background-color: rgba(67, 67, 67, 1);
+}
+
+
+header ul li:hover {
+    color: #ED784A;
+}
+
+header ul li:hover>ol {
+    display: block;
+}
+
+header ul li ol:hover {
+    color: #ED784A;
+}
+
+.body {
+    margin: 2em auto;
+    /* for test */
+    width: 80%;
+    /* end test */
+    /* background: rgba(245,84,85,1); */
+}
+
+footer {
+    padding: 1px 10px;
+    text-align: end;
+    background-color: rgba(67, 67, 67, 1);
+}
+
+footer a {
+    color: #ED784A;
+    text-decoration: none
+}
+
+footer a:hover {
+    color: #904E0E;
+    text-decoration: none
+}
+
+
+@media (max-width:820px) {
+    .body {
+        width: 85%;
+    }
+
+    header ul {
+        width: 100%
+    }
+}
+
+@media (max-width:576px) {
+    .body {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    header ul {
+        width: 100%
+    }
+
+    header .narrow {
+        display: block;
+    }
+
+    header .wide {
+        display: none;
+    }
+}
