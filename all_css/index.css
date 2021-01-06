@@ -67,7 +67,11 @@
     width: 80%;
     color: rgba(67, 67, 67, 1);
 }
+.act:hover>h2{
+    background: rgba(245, 84, 85, 1);
 
+    color: black;
+}
 
 @media (max-width:1024px) {
     .section .title h2 {

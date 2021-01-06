@@ -116,7 +116,11 @@ footer a {
 
 footer a:hover {
     color: #904E0E;
-    text-decoration: none
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+
 }
 
 .split_line{
