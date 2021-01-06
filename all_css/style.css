@@ -1,6 +1,21 @@
 .body_wrap {
     background-color: rgb(240, 240, 240);
 }
+.body_wrap .carousel-caption .block{
+    text-align: left;
+
+}
+.body_wrap .carousel-caption h5{
+    background-color: rgba(0,0,0,0.6);
+    display: inline-block;
+    
+    text-align: left;
+}
+.body_wrap .carousel-caption p{
+    background-color: rgba(0,0,0,0.6);
+    display: inline-block;
+    text-align: left;
+}
 
 .mainImage {
     height: 55vh;
