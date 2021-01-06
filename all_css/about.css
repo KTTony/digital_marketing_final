@@ -1,0 +1,111 @@
+.body .main_img{
+    width: 90%;
+    margin: 20px 5%;
+}
+
+
+.body .title{
+    width: 70%;
+    padding: 10px 30px;
+    margin: 5px auto;
+    text-align: center;
+    background-color:  rgba(67,67,67,1);
+    color: rgba(245, 84, 85, 1);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.body .title h2{
+    font-weight: 800;
+}
+
+
+.body .wrap{
+    margin: 30px auto;
+    background-color: white;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.body .wrap .section{
+    margin: 20px auto;
+    font-size: 1.3em;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.body .wrap .section nav{
+    width: 60%;
+}
+.body .wrap nav h3{
+    /* display: inline-block; */
+    margin: 15px;
+    padding: 20px 10px 5px 10px;
+    font-weight: 700;
+    /* background:  rgba(245,84,85,1);
+    color: white; */
+}
+.body .wrap nav h4{
+    display: inline-block;
+    margin: 15px;
+    padding: 5px 10px;
+    background:  rgba(245,84,85,1);
+    color: white;
+    font-weight: 500;
+}
+
+.body .wrap nav p{
+    margin: 10px;
+}
+.body .wrap .sec_img{
+    margin: 10px;
+    width: 30%;
+}
+.body .wrap .sec_img2{
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ED784A;
+
+}
+.body .wrap .sec_img4{
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color:  rgba(67,67,67,1);
+}
+.body .wrap .sec_img4 .img_block{
+    margin: 10px;
+    width: 23%;
+    text-align: center;
+}
+.body .wrap .sec_img4 a{
+    color: #ED784A;
+    text-decoration: none
+}
+
+.body .wrap .sec_img4 a:hover {
+    color: #ffac59;
+    text-decoration: none
+}
+.body .wrap .sec_img4 .img_block img{
+    width: 100%;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
+
+}
+.body .wrap .section .attra{
+    background:  rgba(245,84,85,1);
+    color: white;
+    font-weight: 500;
+}
+.body .wrap .sec_img2 img{
+    margin: 10px;
+    width: 40%;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
+}
+.body .wrap .section nav .topten{
+    background:  rgba(245,84,85,1);
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}

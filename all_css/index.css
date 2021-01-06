@@ -57,13 +57,6 @@
     color:  rgba(67,67,67,1);
 }
 
-.split_line{
-    width: 95%;
-    margin: 10px auto;
-    border-bottom: solid   rgba(67,67,67,1);
-    border-radius: 3px;
-    border-width: 3px;
-}
 
 @media (max-width:1024px){
     .section1 .title h2{

@@ -35,7 +35,14 @@
     color: white;
     box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
+.page .section .pc {
+    margin: 10px 10px;
+    padding: 3px 2em;
 
+    background-color:  rgba(67,67,67,1);
+
+    color: ivory;
+}
 .page .section .wrap .p1 {
     margin: 10px 10px;
     padding: 3px 2em;
@@ -91,6 +98,7 @@
 
 @media (max-width:864px) {
     .section {
+        width: 90%
         flex-direction: column;
         align-items: center;
         margin: 0 auto;
@@ -99,6 +107,14 @@
     .page .section img {
         width: 75%;
         margin: 15px auto;
+    }
+    .page .section .wrap .p1{
+        width: 90%;
+    }
+    .page .section .wrap .p2{
+        width: 90%;
+    }.page .section .wrap .p3{
+        width: 90%;
     }
 
 }
