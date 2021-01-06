@@ -29,7 +29,7 @@
 .page .section .wrap h3 {
     display: inline-block;
     margin: 10px 5px;
-    padding: 3px 2em;
+    padding: 3px 15px;
     background: rgba(245, 84, 85, 1);
     font-weight: 500;
     color: white;
@@ -37,10 +37,8 @@
 }
 .page .section .pc {
     margin: 10px 10px;
-    padding: 3px 2em;
-
+    padding: 3px 15px;
     background-color:  rgba(67,67,67,1);
-
     color: ivory;
 }
 .page .section .wrap .p1 {
@@ -97,11 +95,15 @@
 
 
 @media (max-width:864px) {
+    .body {
+        width: 100vw;
+        overflow: hidden;
+    }
     .section {
-        width: 90%
+        width: 100%;
         flex-direction: column;
         align-items: center;
-        margin: 0 auto;
+        margin: 0 10 0 0;
     }
 
     .page .section img {
@@ -109,19 +111,22 @@
         margin: 15px auto;
     }
     .page .section .wrap .p1{
-        width: 90%;
+        margin: 15px auto;
+        width: 85%;
     }
     .page .section .wrap .p2{
-        width: 90%;
+        margin: 15px auto;
+        width: 85%;
     }.page .section .wrap .p3{
-        width: 90%;
+        margin: 15px auto;
+        width: 85%;
     }
 
 }
 
 @media (max-width:576px) {
     .page .section img {
-        width: 95%;
+        width: 85%;
         margin: 15px auto;
     }
 
