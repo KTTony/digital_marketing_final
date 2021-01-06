@@ -1,13 +1,14 @@
-.section{
+.section {
     margin: 3px 3px;
     padding: 10px;
     display: flex;
     Justify-content: space-around;
     flex-wrap: wrap;
     align-items: flex-end;
-    color:  rgba(67,67,67,1);
+    color: rgba(67, 67, 67, 1);
 }
-.se1 .title{
+
+.se1 .title {
     padding: 15px;
     width: 55%;
     background-color: white;
@@ -16,13 +17,14 @@
     /* border: rgba(200, 200, 200, 0.8);
     border-radius: 30px; */
 }
-.se1 .title h2{
+
+.se1 .title h2 {
     position: relative;
     padding-left: 1em;
     top: -45px;
     left: 20px;
     width: 50%;
-    background:  rgba(245,84,85,1);
+    background: rgba(245, 84, 85, 1);
     color: white;
     transform: rotate(-3deg);
     box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.4);
@@ -31,13 +33,16 @@
     /* border: rgba(200, 200, 200, 0.8);
     border-radius: 30px; */
 }
-.se1 .video{
+
+.se1 .video {
     width: 40%;
 }
-.se1 .video iframe{
+
+.se1 .video iframe {
     width: 100%;
 }
-.section_flat{
+
+.section_flat {
     margin: 10px 10px;
     padding: 10px;
     display: flex;
@@ -45,48 +50,62 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    color:  rgba(67,67,67,1);
+    color: rgba(67, 67, 67, 1);
 }
-.section_flat .title{
+
+.section_flat .title {
     padding: 10px;
-    color:  rgba(67,67,67,1);
+    color: rgba(67, 67, 67, 1);
 }
-.section_flat .image{
+
+.section_flat .t2 h4 {
+    padding-left: 40px;
+}
+
+.section_flat .image {
     padding: 10px;
     width: 80%;
-    color:  rgba(67,67,67,1);
+    color: rgba(67, 67, 67, 1);
 }
 
 
-@media (max-width:1024px){
-    .section1 .title h2{
+@media (max-width:1024px) {
+    .section .title h2 {
         width: 70%;
+        padding-left: 0.5;
+
     }
 }
-@media (max-width:820px){
-    .section{
+
+@media (max-width:820px) {
+    .section {
         flex-direction: column;
         align-items: center;
         margin: 0 auto;
     }
-    .se1{
+
+    .se1 {
         margin-top: 45px;
 
     }
-    .se1 .title{
+
+    .se1 .title {
         width: 100%;
     }
-    .se1 .video{
+
+    .se1 .video {
         margin: 15px 10px;
         width: 100%;
     }
-    
+
 }
-@media (max-width:576px){
-    .se1{
+
+@media (max-width:576px) {
+    .se1 {
         margin-top: 45px;
     }
-    .se1 .title h2{
+
+    .se1 .title h2 {
         width: 70%;
     }
 }
