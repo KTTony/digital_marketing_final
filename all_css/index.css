@@ -53,6 +53,20 @@
     color: rgba(67, 67, 67, 1);
 }
 
+.section_flat .img_block {
+    display: flex;
+    Justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-end;
+
+    background-color: rgba(67, 67, 67, 1);
+    padding: 20px;
+}
+
+.section_flat .img_block img {
+    width: 30%;
+}
+
 .section_flat .title {
     padding: 10px;
     color: rgba(67, 67, 67, 1);
@@ -67,7 +81,8 @@
     width: 80%;
     color: rgba(67, 67, 67, 1);
 }
-.act:hover>h2{
+
+.act:hover>h2 {
     background: rgba(245, 84, 85, 1);
 
     color: black;
@@ -111,5 +126,16 @@
 
     .se1 .title h2 {
         width: 70%;
+    }
+
+    .section_flat .img_block {
+        display: flex;
+        Justify-content: space-around;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .section_flat .img_block img {
+        width: 90%;
     }
 }
